@@ -1,2 +1,6 @@
-# react-wordpress
-A React.js UI for use with WP-API plugin for WordPress. WordCamp Cincinnati 2016
+# Power-UP YOUR UI WITH WP-API AND REACT.JS
+
+## WordCamp Cincinnati 2016
+
+This project reads and displays posts as quotes. Dependencies can be found in the package.json file.
+Run 'npm install' to install those files.
