@@ -12,7 +12,8 @@ const defaultState = {
   quotes: []
 }
 
-// this following should make the store be available in the redux dev tools of chrome
+// this following will let the store be available
+// in the Redux tab of chrome dev tools
 const enhancers = compose(
   applyMiddleware(thunk),
   window.devToolsExtension ? window.devToolsExtension() : f => f
